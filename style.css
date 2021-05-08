@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  font-family: poppins;
+}
+.fab {
+  font-size: 140px;
+}
+.fa-facebook {
+  color: #3b579d;
+}
+.fa-instagram {
+  color: #bb398c;
+}
+.fa-twitter {
+  color: #55aded;
+}
+.fa-youtube {
+  color: #ff0000;
+}
+.about-us {
+  padding: 30px;
+  background-image: url("/img/background-2.jpg");
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.about-us p {
+  width: 50%;
+}
