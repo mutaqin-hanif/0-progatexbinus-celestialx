@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  font-family: poppins;
+  padding: 0;
+  margin: 0px;
+}
+body {
+  height: 100%;
+}
+header {
+  position: fixed;
+  background-image: linear-gradient(black 30%, rgba(0, 0, 0, 0));
+  width: 100%;
+}
+header .nav-list {
+  display: flex;
+  align-self: center;
+  justify-content: flex-end;
+  color: white;
+  width: 100%;
+  padding-right: 30px;
+  font-weight: 600;
+}
+header .nav-list a {
+  justify-content: center;
+  width: auto;
+  cursor: pointer;
+}
+.nav {
+  display: flex;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 10px 10px 30px;
+  width: 80px;
+}
+.fab {
+  font-size: 32px;
+}
+.fa-facebook {
+  color: #3b579d;
+}
+.fa-instagram {
+  color: #bb398c;
+}
+.fa-twitter {
+  color: #55aded;
+}
+.fa-youtube {
+  color: #ff0000;
+}
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  background-image: url("/img/background-2.jpg");
+  background-size: cover;
+  color: white;
+  height: 100vh;
+  justify-content: center;
+}
+.about-us p {
+  width: 50%;
+}
+
+footer {
+  padding: 30px;
+  border-top: 1px solid #eee;
+  background-color: #080c25;
+  color: white;
+}
+footer div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+footer i {
+  width: 32px;
+  height: 26px;
+  padding: 10px;
+}
+
+.first-row-footer {
+  display: inline-block;
+  padding-right: 50px;
+}
+
+.fa-facebook p {
+  padding-right: 10px;
+}
+
+.fa-instagram {
+  display: inline-block;
+}
+
+.first-row-footer p {
+  float: right;
+}
+
+.second-row-footer {
+  display: inline-block;
+}
+
+.fa-twitter p {
+  padding-right: 10px;
+}
+
+.fa-youtube {
+  display: inline-block;
+}
+
+.second-row-footer p {
+  float: right;
+}

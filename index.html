@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/responsive.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -18,18 +19,22 @@
     <header>
       <div class="nav">
         <img src="/img/logo.png" class="logo" />
-        <a class="nav-list"></a>
-        <a class="nav-list"></a>
-        <a class="nav-list"></a>
-        <a class="nav-list"></a>
+        <div class="nav-list">
+          <a class="nav-list" onclick='scrolling("main")'>Home</a>
+          <a class="nav-list" onclick='scrolling("about-us")'>About Us</a>
+          <a class="nav-list" onclick='scrolling("achievements")'
+            >Achievement</a
+          >
+          <a class="nav-list" onclick='scrolling("follow-us")'>Contact Us</a>
+        </div>
       </div>
     </header>
     <!-- Main content -->
-    <div class="main">
+    <div class="main" id="main">
       <h1>We are the first to reach the stars</h1>
       <a>Learn More</a>
     </div>
-    <div class="about-us">
+    <div class="about-us" id="about-us">
       <h1>About us</h1>
       <p>
         CelestialX is a Japanese aerospace manufacturer and space transportation
@@ -40,31 +45,41 @@
         spacecraft and NeutronLink communications satellites.
       </p>
     </div>
-    <div class="achievements">
+    <div class="achievements" id="achievements">
       <h1>Our Achievements</h1>
       <p>Our achievements include:</p>
-      <div class="first-row">
-        <div class="first-img">
-          <img src="" />
-          <p>
-            The first privately funded liquid-propellant rocket to reach orbit
-            (Eagle 1 in 2008)
-          </p>
+      <div class="ach-wrapper">
+        <div class="first-row">
+          <div class="first-img">
+            <img
+              src="https://cdn.discordapp.com/attachments/840150537093906452/840169497717637170/Falcon_1_Flight_4_liftoff.png"
+            />
+            <p>
+              The first privately funded liquid-propellant rocket to reach orbit
+              (Eagle 1 in 2008)
+            </p>
+          </div>
+          <div class="second-img">
+            <img
+              src="https://cdn.discordapp.com/attachments/840150537093906452/840169829389828146/1024px-COTS2Dragon.png"
+            />
+            <p>
+              The first private company to successfully launch, orbit, and
+              recover a spacecraft (Hawk in 2010)
+            </p>
+          </div>
         </div>
-        <div class="second-img">
-          <img src="" />
-          <p>
-            The first private company to successfully launch, orbit, and recover
-            a spacecraft (Hawk in 2010)
-          </p>
+        <div class="second-row">
+          <div class="third-img">
+            <img
+              src="https://cdn.discordapp.com/attachments/840150537093906452/840203872408698920/1280px-Falcon_9_first_stage_landing_on_Droneship.png"
+            />
+            <p>
+              The first private company to send a spacecraft to the
+              International Space Station (Hawk in 2012)
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="second-row">
-        <img src="" />
-        <p>
-          The first private company to send a spacecraft to the International
-          Space Station (Hawk in 2012)
-        </p>
       </div>
     </div>
     <div class="informed">
@@ -73,28 +88,40 @@
       <a href="#">Register</a>
     </div>
     <!-- Footer -->
-    <footer>
+    <footer id="follow-us">
       <h3>Follow us</h3>
-      <div class="first-row-footer">
-        <div class="facebook">
-          <i class="fab fa-facebook"></i>
-          <p>Facebook</p>
+      <div class="social">
+        <div class="first-row-footer">
+          <div class="facebook">
+            <!-- <img src="/img/fb.png" alt="Facebook" /> -->
+            <i class="fab fa-facebook"></i>
+            <p>Facebook</p>
+          </div>
+          <div class="instagram">
+            <!-- <img src="/img/ig.png" alt="Instagram" /> -->
+            <i class="fab fa-instagram"></i>
+            <p>Instagram</p>
+          </div>
         </div>
-        <div class="instagram">
-          <i class="fab fa-instagram"></i>
-          <p>Instagram</p>
-        </div>
-      </div>
-      <div class="second-row-footer">
-        <div class="twitter">
-          <i class="fab fa-twitter"></i>
-          <p>Twitter</p>
-        </div>
-        <div class="youtube">
-          <i class="fab fa-youtube"></i>
-          <p>Youtube</p>
+        <div class="second-row-footer">
+          <div class="twitter">
+            <!-- <img src="/img/twitter.png" alt="Twitter" /> -->
+            <i class="fab fa-twitter"></i>
+            <p>Twitter</p>
+          </div>
+          <div class="youtube">
+            <!-- <img src="/img/yt.png" alt="Youtube" /> -->
+            <i class="fab fa-youtube"></i>
+            <p>Youtube</p>
+          </div>
         </div>
       </div>
     </footer>
   </body>
+  <script>
+    function scrolling(id) {
+      let about = document.getElementById(id);
+      about.scrollIntoView({ behavior: "smooth" });
+    }
+  </script>
 </html>
