@@ -66,10 +66,7 @@ header {
   padding: 50px;
   background-image: url("/img/background-2.jpg");
   background-size: cover;
-  background-repeat: no-repeat;
   color: white;
-  height: 50vh;
-  justify-content: center;
   text-align: center;
 }
 
@@ -146,29 +143,8 @@ footer h3 {
 }
 
 .first-row-footer {
-  display: inline-block;
   padding-right: 50px;
   display: flex;
-}
-
-.facebook p {
-  padding-right: 10px;
-}
-
-.instagram {
-  display: inline-block;
-}
-
-.first-row-footer p {
-  float: right;
-}
-
-.twitter p {
-  padding-right: 10px;
-}
-
-.youtube {
-  display: inline-block;
 }
 
 .facebook,
