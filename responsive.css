@@ -1,433 +1,404 @@
 /* for tablet */
 @media all and (max-width: 1000px) {
-  /* header */
-  .logo {
-    width: 155px;
-  }
+    /* header */
+    .logo{
+        width:155px;
+      }
 
-  .nav-list {
-    font-size: 25px;
-  }
+     .nav-list{
+        font-size:25px;
+     }
 
-  .nav-list:hover {
-    color: black;
-    background-color: antiquewhite;
-    transition: all 0.3s;
-  }
+     .nav-list:hover{
+      color: black;
+      background-color: antiquewhite;
+      transition: all 0.3s;
+    }
 
-  /* main: learn more */
-  .main h1 {
-    font-size: 43px;
-  }
+    /* main: learn more */
+     .main h1{
+         font-size:43px;
+     }
 
-  .main {
-    height: 350px;
-    padding-top: 180px;
-  }
+     .main{
+        height: 350px;
+        padding-top: 180px;
+     }
+     
+     .learn-more{
+        margin-top: 40px;
+      }
+          
+      .learn-more a{
+        color: black;
+        background-color: white;
+        padding: 20px 50px;
+      }
 
-  .learn-more {
-    margin-top: 40px;
-  }
+      .learn-more a:hover{
+        color: white;
+        background-color: rgba(0, 0, 0, 0);
+        transition: all 0.3s;
+      }
 
-  .learn-more a {
-    color: black;
-    background-color: white;
-    padding: 20px 50px;
-  }
+      /* main: about us */
+      .about-us {
+        padding: 190px 0 0 0;
+        height: 80vh;
+      }
+      
+      .about-us p {
+        padding: 30px 100px 0 100px;
+        font-size: 20px;
+      }
 
-  .learn-more a:hover {
-    color: white;
-    background-color: rgba(0, 0, 0, 0);
-    transition: all 0.3s;
-  }
+      /* main: achievments */
+      .achievements{
+        padding: 60px 0;
+      }
+      
+      .achievements p{
+        padding: 0 100px;
+      }
+      
+      .achievements img{
+        width: 550px;
+        padding-top: 90px;
+      }
 
-  /* main: about us */
-  .about-us {
-    padding: 190px 0 0 0;
-    height: 80vh;
-  }
+      /* main: informed */
+      .register a{
+        color: white;
+        background-color: black;
+        font-size: 20px;
+        padding: 10px 30px;
+      }
 
-  .about-us p {
-    padding: 30px 100px 0 100px;
-    font-size: 20px;
-  }
+      .register a:hover{
+        color: black;
+        background-color: rgba(0, 0, 0, 0);
+        font-size: 20px;
+        transition: all 0.3s;
+      }
 
-  /* main: achievments */
-  .achievements {
-    padding: 60px 0;
-  }
+      /* footer */
+      .fab {
+        font-size: 25px;
+        padding-right: 5px;
+      }
 
-  .achievements p {
-    padding: 0 100px;
-  }
+      .facebook, .instagram, .twitter, .youtube{
+        padding-right:40px;
+      }
 
-  .achievements img {
-    width: 550px;
-    padding-top: 90px;
-  }
-
-  /* main: informed */
-  .register a {
-    color: white;
-    background-color: black;
-    font-size: 20px;
-    padding: 10px 30px;
-  }
-
-  .register a:hover {
-    color: black;
-    background-color: rgba(0, 0, 0, 0);
-    font-size: 20px;
-    transition: all 0.3s;
-  }
-
-  /* footer */
-  .fab {
-    font-size: 25px;
-    padding-right: 5px;
-  }
-
-  .facebook,
-  .instagram,
-  .twitter,
-  .youtube {
-    padding-right: 40px;
-  }
-
-  .facebook a,
-  .instagram a,
-  .twitter a,
-  .youtube a {
-    font-size: 22px;
-  }
+      .facebook a, .instagram a, .twitter a, .youtube a{
+        font-size:22px;
+      }
 }
 
 @media all and (max-width: 750px) {
-  /* header */
-  .logo {
-    width: 140px;
-  }
+    /* header */
+    .logo{
+        width:140px;
+      }
 
-  .nav-list {
-    font-size: 20px;
-  }
+     .nav-list{
+        font-size:20px;
+     }
 
-  /* main: learn more */
-  .main h1 {
-    font-size: 30px;
-  }
+    /* main: learn more */
+     .main h1{
+         font-size:30px;
+     }
+          
+      .learn-more a{
+        padding: 13px 33px;
+        font-size:18px;
+      }
 
-  .learn-more a {
-    padding: 13px 33px;
-    font-size: 18px;
-  }
+      /* main: about us */
+      .about-us h1{
+        font-size:35px;
+      }
 
-  /* main: about us */
-  .about-us h1 {
-    font-size: 35px;
-  }
+      .about-us p {
+        padding: 30px 90px 0 90px;
+      }
 
-  .about-us p {
-    padding: 30px 90px 0 90px;
-  }
+      /* main: achievments */
+      .achievements{
+        font-size:20px;
+      }
+      
+      .achievements p{
+        font-size:18px;
+        padding: 0 100px;
+      }
+      
+      .achievements img{
+        width: 500px;
+        padding-top: 90px;
+      }
 
-  /* main: achievments */
-  .achievements {
-    font-size: 20px;
-  }
+      /* main: informed */
+      .register a{
+        padding: 13px 33px;
+        font-size:18px;
+      }
 
-  .achievements p {
-    font-size: 18px;
-    padding: 0 100px;
-  }
+      /* footer */
+      .fab {
+        font-size: 20px;
+        padding-right: 5px;
+      }
 
-  .achievements img {
-    width: 500px;
-    padding-top: 90px;
-  }
+      .facebook, .instagram, .twitter, .youtube{
+        padding-right:40px;
+      }
 
-  /* main: informed */
-  .register a {
-    padding: 13px 33px;
-    font-size: 18px;
-  }
-
-  /* footer */
-  .fab {
-    font-size: 20px;
-    padding-right: 5px;
-  }
-
-  .facebook,
-  .instagram,
-  .twitter,
-  .youtube {
-    padding-right: 40px;
-  }
-
-  .facebook a,
-  .instagram a,
-  .twitter a,
-  .youtube a {
-    font-size: 20px;
-  }
+      .facebook a, .instagram a, .twitter a, .youtube a{
+        font-size:20px;
+      }
 }
+
 
 /* for smartphone*/
 @media all and (max-width: 670px) {
-  /* header */
-  .logo {
-    width: 125px;
-  }
+    /* header */
+    .logo{
+        width:125px;
+      }
 
-  .nav-list {
-    font-size: 17px;
-    padding: 25px;
-  }
+     .nav-list{
+        font-size:17px;
+        padding: 25px;
+     }
 
-  /* main: learn more */
-  .main h1 {
-    font-size: 28px;
-  }
+    /* main: learn more */
+     .main h1{
+         font-size:28px;
+     }
 
-  .main {
-    height: 250px;
-    padding-top: 165px;
-    padding-bottom: 30px;
-  }
+     .main{
+        height: 250px;
+        padding-top: 165px;
+        padding-bottom: 30px;
+     }
+     
+     .learn-more{
+        margin-top: 30px;
+      }
+          
+      .learn-more a{
+        font-size: 15px;
+        padding: 10px 40px;
+      }
 
-  .learn-more {
-    margin-top: 30px;
-  }
+      /* main: about us */
+      .about-us {
+        padding: 90px 0 0 0;
+        height: 85vh;
+      }
+      
+      .about-us h1{
+        font-size:37px;
+      }
 
-  .learn-more a {
-    font-size: 15px;
-    padding: 10px 40px;
-  }
+      .about-us p {
+        padding: 20px 65px 0 65px;
+        font-size: 20px;
+      }
 
-  /* main: about us */
-  .about-us {
-    padding: 90px 0 0 0;
-    height: 85vh;
-  }
+      /* main: achievments */
+      .achievements{
+        font-size: 20px;
+        padding: 70px 0;
+      }
+      
+      .achievements p{
+        font-size: 15px;
+        padding: 0 120px;
+      }
+      
+      .achievements img{
+        width: 350px;
+        padding-top: 50px;
+      }
 
-  .about-us h1 {
-    font-size: 37px;
-  }
+      /* main: informed */
+      .register a{
+        font-size: 15px;
+        padding: 10px 30px;
+      }
 
-  .about-us p {
-    padding: 20px 65px 0 65px;
-    font-size: 20px;
-  }
+      /* footer */
+      footer h3{
+        font-size:25px;
+      }
 
-  /* main: achievments */
-  .achievements {
-    font-size: 20px;
-    padding: 70px 0;
-  }
+      .fab {
+        font-size: 19px;
+        padding-right: 5px;
+      }
 
-  .achievements p {
-    font-size: 15px;
-    padding: 0 120px;
-  }
+      .facebook, .instagram, .twitter, .youtube{
+        padding-right:40px;
+      }
 
-  .achievements img {
-    width: 350px;
-    padding-top: 50px;
-  }
-
-  /* main: informed */
-  .register a {
-    font-size: 15px;
-    padding: 10px 30px;
-  }
-
-  /* footer */
-  footer h3 {
-    font-size: 25px;
-  }
-
-  .fab {
-    font-size: 19px;
-    padding-right: 5px;
-  }
-
-  .facebook,
-  .instagram,
-  .twitter,
-  .youtube {
-    padding-right: 40px;
-  }
-
-  .facebook a,
-  .instagram a,
-  .twitter a,
-  .youtube a {
-    font-size: 17px;
-  }
+      .facebook a, .instagram a, .twitter a, .youtube a{
+        font-size:17px;
+      }
 }
 
 @media all and (max-width: 490px) {
-  /* header */
-  .logo {
-    width: 100px;
-    padding: 10px;
-  }
+    /* header */
+    .logo{
+        width:100px;
+        padding: 10px;
+      }
 
-  .nav-list {
-    font-size: 18px;
-    padding: 13px;
-  }
+     .nav-list{
+        font-size:18px;
+        padding: 13px;
+     }
 
-  /* main: learn more */
-  .main h1 {
-    font-size: 33px;
-    padding: 0 30px;
-  }
+    /* main: learn more */
+     .main h1{
+         font-size:33px;
+         padding:0 30px;
+     }
 
-  .main {
-    height: 400px;
-    padding-top: 185px;
-  }
+     .main{
+        height: 400px;
+        padding-top: 185px;
+     }
+     
+     .learn-more{
+        margin-top: 50px;
+      }
 
-  .learn-more {
-    margin-top: 50px;
-  }
+      /* main: about us */
+      .about-us {
+        padding: 80px 0 0 0;
+        height: 90vh;
+      }
+      
+      .about-us h1{
+        font-size:35px;
+      }
 
-  /* main: about us */
-  .about-us {
-    padding: 80px 0 0 0;
-    height: 90vh;
-  }
+      .about-us p {
+        padding: 30px 60px 0px 60px;
+        font-size: 15px;
+      }
 
-  .about-us h1 {
-    font-size: 35px;
-  }
+      /* main: achievments */
+      .achievements{
+        font-size: 15px;
+        padding: 70px 0;
+      }
+      
+      .achievements p{
+        font-size: 15px;
+        padding: 0 38px;
+      }
+      
+      .achievements img{
+        width: 270px;
+        padding-top: 50px;
+      }
 
-  .about-us p {
-    padding: 30px 60px 0px 60px;
-    font-size: 15px;
-  }
+      /* footer */
+      footer{
+          height:250px;
+      }
+      
+      .facebook, .instagram, .twitter, .youtube{
+        padding-right:40px;
+        padding-bottom: 10px;
+      }
 
-  /* main: achievments */
-  .achievements {
-    font-size: 15px;
-    padding: 70px 0;
-  }
+      .facebook a, .instagram a, .twitter a, .youtube a{
+        font-size:17px;
+      }
 
-  .achievements p {
-    font-size: 15px;
-    padding: 0 38px;
-  }
-
-  .achievements img {
-    width: 270px;
-    padding-top: 50px;
-  }
-
-  /* footer */
-  footer {
-    height: 250px;
-  }
-
-  .facebook,
-  .instagram,
-  .twitter,
-  .youtube {
-    padding-right: 40px;
-    padding-bottom: 10px;
-  }
-
-  .facebook a,
-  .instagram a,
-  .twitter a,
-  .youtube a {
-    font-size: 17px;
-  }
-
-  .first-row-footer {
-    display: inline-block;
-  }
+      .first-row-footer{
+        display: inline-block;
+      }
 }
 
 @media all and (max-width: 360px) {
   /* header */
-  .logo {
-    width: 80px;
-    padding: 10px;
-  }
+  .logo{
+      width:80px;
+      padding: 10px;
+    }
 
-  .nav-list {
-    font-size: 15px;
-    padding: 12px;
-  }
+   .nav-list{
+      font-size:15px;
+      padding: 12px;
+   }
 
   /* main: learn more */
-  .main h1 {
-    font-size: 33px;
-  }
+   .main h1{
+       font-size:33px;
+   }
 
-  .main {
-    height: 400px;
-    padding-top: 185px;
-  }
+   .main{
+      height: 400px;
+      padding-top: 185px;
+   }
+   
+   .learn-more{
+      margin-top: 50px;
+    }
 
-  .learn-more {
-    margin-top: 50px;
-  }
+    /* main: about us */
+    .about-us {
+      padding: 78px 0 0 0;
+      height: 90vh;
+    }
+    
+    .about-us h1{
+      font-size:35px;
+    }
 
-  /* main: about us */
-  .about-us {
-    padding: 78px 0 0 0;
-    height: 90vh;
-  }
+    .about-us p {
+      padding: 30px 50px 0px 50px;
+      font-size: 15px;
+    }
 
-  .about-us h1 {
-    font-size: 35px;
-  }
+    /* main: achievments */
+    .achievements{
+      font-size: 15px;
+      padding: 70px 0;
+    }
+    
+    .achievements p{
+      font-size: 15px;
+      padding: 0 38px;
+    }
+    
+    .achievements img{
+      width: 270px;
+      padding-top: 50px;
+    }
 
-  .about-us p {
-    padding: 30px 50px 0px 50px;
-    font-size: 15px;
-  }
+    /* footer */
+    footer{
+      height:250px;
+    }
+    
+    .facebook, .instagram, .twitter, .youtube{
+      padding-right:40px;
+      padding-bottom: 10px;
+    }
 
-  /* main: achievments */
-  .achievements {
-    font-size: 15px;
-    padding: 70px 0;
-  }
+    .facebook a, .instagram a, .twitter a, .youtube a{
+      font-size:17px;
+    }
 
-  .achievements p {
-    font-size: 15px;
-    padding: 0 38px;
-  }
-
-  .achievements img {
-    width: 270px;
-    padding-top: 50px;
-  }
-
-  /* footer */
-  footer {
-    height: 250px;
-  }
-
-  .facebook,
-  .instagram,
-  .twitter,
-  .youtube {
-    padding-right: 40px;
-    padding-bottom: 10px;
-  }
-
-  .facebook a,
-  .instagram a,
-  .twitter a,
-  .youtube a {
-    font-size: 17px;
-  }
-
-  .first-row-footer {
-    display: inline-block;
-  }
+    .first-row-footer{
+      display: inline-block;
+    }
 }
