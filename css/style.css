@@ -64,7 +64,7 @@ header {
 
 .about-us {
   padding: 50px;
-  background-image: url("../img/background-2.jpg");
+  background-image: url("/img/background-2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
