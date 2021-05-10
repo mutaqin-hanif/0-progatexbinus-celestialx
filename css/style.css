@@ -30,7 +30,7 @@ header {
 
 .main {
   color: white;
-  background-image: url("/img/background-1.jpg");
+  background-image: url("img/background-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -64,9 +64,12 @@ header {
 
 .about-us {
   padding: 50px;
-  background-image: url("/img/background-2.jpg");
+  background-image: url("img/background-2.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
   color: white;
+  height: 63vh;
+  justify-content: center;
   text-align: center;
 }
 
@@ -131,18 +134,21 @@ header {
 }
 
 footer {
-  padding-left: 10px;
+  padding-left: 25px;
+  height: 150px;
   border-top: 1px solid #eee;
-  padding-top: 5px;
   background-color: #080c25;
   color: white;
 }
 
 footer h3 {
-  padding-bottom: 20px;
+  font-size: 30px;
+  padding-top: 35px;
+  padding-bottom: 15px;
 }
 
 .first-row-footer {
+  display: inline-block;
   padding-right: 50px;
   display: flex;
 }
@@ -151,7 +157,7 @@ footer h3 {
 .instagram,
 .twitter,
 .youtube {
-  margin-right: 50px;
+  padding-right: 50px;
 }
 
 .facebook a,
@@ -160,11 +166,11 @@ footer h3 {
 .youtube a {
   text-decoration: none;
   color: white;
+  font-size: 20px;
 }
 
 .fab {
-  font-size: 30px;
-  height: 50px;
+  font-size: 25px;
   padding-right: 10px;
 }
 
